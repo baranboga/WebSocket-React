@@ -34,6 +34,7 @@ function App() {
   };
 
   // Socket bağlantısı kurulduktan sonra event dinleyicileri
+  //Burada socket ile ilgili eventleri dinliyoruz
   useEffect(() => {
     if (!socket) return;
 
